@@ -58,7 +58,7 @@ void testLinkedListInsertionSort(int randomArray[], int sortedArray[], int linke
 }
 
 
-/*
+
 
 TEST_CASE("insertion_sort")
 {
@@ -82,7 +82,7 @@ TEST_CASE("insertion_sort")
     int linkedListArray3[10];
     testLinkedListInsertionSort(testerList3, sortedList3, linkedListArray3, 10);
 }
-*/
+
 
 TEST_CASE("linked_queue")
 {
