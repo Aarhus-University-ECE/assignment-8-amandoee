@@ -1,0 +1,31 @@
+Link to github:
+https://github.com/Aarhus-University-ECE/assignment-8-amandoee
+
+________________________________________________________   
+
+
+**Assignment 8 Exercise 1**
+_______________________
+(a) How many arithmetic operations (+, −, ∗, /) are required to compute fact(5)? 
+
+10. 
+Because i is incremented 1 time per loop, and the loop runs 5 times.
+The loop running also multiplies i and f.
+So, 5 + 5 = 10.
+_______________________
+
+
+_______________________
+(b) How many arithmetic operations (+, −, ∗, /) are required to compute fact(n)
+for any positive integer n?
+
+2n
+Because the loop runs n times and performs 2 arithmetic operations per loop.
+_______________________
+
+
+_______________________
+**Assignment 8 Exercise 3.b**
+
+The tests can be seen in /include/tests.cpp. I've added the testcases there under "TEST_CASE("Verify implementation (MY TESTS)")"
+_______________________

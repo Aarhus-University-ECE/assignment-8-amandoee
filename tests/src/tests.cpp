@@ -57,8 +57,39 @@ void testLinkedListInsertionSort(int randomArray[], int sortedArray[], int linke
 
 }
 
+TEST_CASE("Verify implementation (MY TESTS)") {
+
+    queue test;
+
+    //(A)
+    init_queue(&test);
+    REQUIRE(empty(&test) == 1);
 
 
+    //(B)
+    int x = 5;
+    int y;
+    enqueue(&test, x);
+
+    y = dequeue(&test);
+    REQUIRE(y == x);
+
+    //(C)
+    int x0 = 10;
+    int x1 = 20;
+
+    int y0;
+    int y1;
+
+    enqueue(&test, x0);
+    enqueue(&test, x1);
+
+    y0 = dequeue(&test);
+    y1 = dequeue(&test);
+
+    REQUIRE(y0 == x0);
+    REQUIRE(y1 == x1);
+}
 
 TEST_CASE("insertion_sort")
 {
